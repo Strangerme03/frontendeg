@@ -46,6 +46,8 @@ const HomePage = () => {
           </Card>
         </Col>
       </Row>
+      {/* Extra section to make page visually longer */}
+      <div style={{ height: '200px', backgroundColor: 'white' }}></div>
     </Container>
   );
 }

@@ -1,0 +1,25 @@
+/* Make the body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: white;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom */
+  }
+  
